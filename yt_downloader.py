@@ -29,5 +29,7 @@ root.geometry('700x200')
 root.resizable(0, 0)
 root.config(bg='Coral')
 
+#Heading label
+Label(root, text='TechVidvan Youtube Video Downloader', font=("Comic Sans MS", 15), bg='Coral').place(relx=0.25, rely=0.0)
 
 
