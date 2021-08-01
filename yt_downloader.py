@@ -46,3 +46,11 @@ filename_strvar = StringVar(root)
 filename_entry = Entry(root, width=50, textvariable=filename_strvar)
 filename_entry.place(relx=0.5, rely=0.6)
 
+# Creating the buttons
+download_btn = Button(root, text='Download', font=7, bg='Aquamarine',
+                      command=lambda: downloader(link_entry, dir_entry, filename_entry)).place(relx=0.3, rely=0.75)
+reset_btn = Button(root, text='Reset', font=7, bg='Aquamarine',
+                   command=lambda: reset(link_strvar, dir_strvar, filename_strvar)).place(relx=0.5, rely=0.75)
+
+
+
