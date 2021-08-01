@@ -22,4 +22,12 @@ def reset(l_strvar, d_strvar, fn_strvar):
     d_strvar.set('')
     fn_strvar.set('')
 
+#Initializing the window and placing all its components
+root = Tk()
+root.title('TechVidvan Youtube Video Downloader')
+root.geometry('700x200')
+root.resizable(0, 0)
+root.config(bg='Coral')
+
+
 
