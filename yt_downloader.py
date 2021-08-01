@@ -52,5 +52,7 @@ download_btn = Button(root, text='Download', font=7, bg='Aquamarine',
 reset_btn = Button(root, text='Reset', font=7, bg='Aquamarine',
                    command=lambda: reset(link_strvar, dir_strvar, filename_strvar)).place(relx=0.5, rely=0.75)
 
-
+# Finalizing the window of Python YouTube Video Downloader project
+root.update()
+root.mainloop()
 
